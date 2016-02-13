@@ -1,4 +1,4 @@
 class Project < ApplicationRecord
-  validates :title, presense: true
+  validates :title, presence: true
   validates :description, presence: true
 end
