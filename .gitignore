@@ -1,7 +1,19 @@
+# Ignore bundler config.
+/.bundle
 
-# Created by https://www.gitignore.io/api/node
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 
-### Node ###
+# Ignore Byebug command history file.
+.byebug_history
+
+# OS X's ugly files
+*.DS_Store
+
+# Node
 # Logs
 logs
 *.log
