@@ -1,4 +1,4 @@
-## [アプリケーション名](DeployしたHerokuのURLをこちらに記入してください)
+## [Historio API](https://historio-api.herokuapp.com/)
 
 ### 作品の説明
 
