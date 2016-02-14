@@ -49,7 +49,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "yamadori-portfolio_#{Rails.env}"
+  # config.active_job.queue_name_prefix = "historio-api_#{Rails.env}"
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.

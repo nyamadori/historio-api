@@ -1,5 +1,7 @@
-nyamadori-portfolio
-====================
+historio-api
+============
+
+Rails 製ポートフォリオアプリケーションのAPIサーバ
 
 [ポートフォリオアプリをハックせよ](https://sprint.code-check.io) 用リポジトリ
 
