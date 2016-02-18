@@ -43,6 +43,5 @@ gem 'rails_12factor', group: :production
 # use master branch to enable multiple file upload.
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 
-group :production do |variable|
-  gem 'fog-aws'
-end
+# To upload images to S3
+gem 'fog-aws'
