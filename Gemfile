@@ -38,3 +38,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # For Heroku
 gem 'rails_12factor', group: :production
+
+# For uploading & storeing images
+# use master branch to enable multiple file upload.
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+
+group :production do |variable|
+  gem 'fog-aws'
+end
