@@ -45,3 +45,6 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 
 # To upload images to S3
 gem 'fog-aws'
+
+# For loading a dotenv file
+gem 'dotenv-rails'
