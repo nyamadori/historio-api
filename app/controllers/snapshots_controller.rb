@@ -28,7 +28,7 @@ class SnapshotsController < ApplicationController
   private
 
   def snapshot_params
-
+    params.permit(:images, :title, :description)
   end
 
   def set_snapshot
