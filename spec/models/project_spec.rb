@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Project, type: :model do
+  subject(:project) { Project.new }
+
+  it { is_expected.to respond_to(:snapshots) }
+
   it 'is valid with a title and description' do
     project = Project.new(title: 'foo', description: 'bar')
     expect(project).to be_valid
