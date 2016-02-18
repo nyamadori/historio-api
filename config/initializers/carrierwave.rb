@@ -1,4 +1,3 @@
-
 CarrierWave.configure do |config|
-  config.storage = Rails.env.production? ? :fog : :file
+  config.storage = :fog
 end
